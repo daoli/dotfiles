@@ -66,6 +66,7 @@ fu! SplitScroll()
 endfu
 
 nmap <leader>sb :call SplitScroll()<CR>
+nmap <silent> <leader>s :set spell!<CR>
 
 
 "<CR><C-w>l<C-f>:set scrollbind<CR>
