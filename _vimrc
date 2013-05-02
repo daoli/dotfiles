@@ -188,7 +188,7 @@ set virtualedit=block       " Let cursor move past the last char in <C-v> mode
 set scrolloff=3             " Keep 3 context lines above and below the cursor
 set backspace=2             " Allow backspacing over autoindent, EOL, and BOL
 set showmatch               " Briefly jump to a paren once it's balanced
-set nowrap                  " don't wrap text
+"set nowrap                  " don't wrap text
 set linebreak               " don't wrap textin the middle of a word
 set autoindent              " always set autoindenting on
 set smartindent             " use smart indent if there is no indent file
@@ -252,6 +252,9 @@ endif
 
 " Paste from clipboard
 map <leader>p "+p
+
+" http://stackoverflow.com/q/470551
+set pastetoggle=<F2>
 
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
