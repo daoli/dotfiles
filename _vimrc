@@ -259,6 +259,9 @@ map <leader>p "+p
 " http://stackoverflow.com/q/470551
 set pastetoggle=<F2>
 
+map <F3> :mksession! ~/.vim/session <cr> " Quick write session with F3
+map <F4> :source ~/.vim/session <cr>     " And load session with F4
+
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
 
