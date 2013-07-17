@@ -261,6 +261,7 @@ set pastetoggle=<F2>
 
 map <F3> :mksession! ~/.vim/session <cr> " Quick write session with F3
 map <F4> :source ~/.vim/session <cr>     " And load session with F4
+map <F5> :windo e <cr>                   " Reload buffers
 
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
