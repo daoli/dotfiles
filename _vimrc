@@ -255,7 +255,8 @@ else
     "colorscheme blackboard
     "colorscheme github
     "colorscheme molokai
-    colorscheme simple256
+    colorscheme saturn
+    "colorscheme simple256
     "colorscheme vividchalk
     "colorscheme wombat
 endif
