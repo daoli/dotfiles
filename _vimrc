@@ -184,7 +184,8 @@ set pumheight=6             " Keep a small completion window
 
 """ Moving Around/Editing
 set wrap
-set nocursorline
+"set nocursorline
+set cursorline
 set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode
@@ -250,7 +251,13 @@ if has("gui_running")
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme molokai
+    " blackboard.vim molokai.vim    vividchalk.vim wombat.vim
+    "colorscheme blackboard
+    "colorscheme github
+    "colorscheme molokai
+    colorscheme simple256
+    "colorscheme vividchalk
+    "colorscheme wombat
 endif
 
 " Paste from clipboard
