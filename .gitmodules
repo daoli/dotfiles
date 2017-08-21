@@ -64,3 +64,6 @@
 [submodule "_vim/bundle/python-mode"]
 	path = _vim/bundle/python-mode
 	url = https://github.com/klen/python-mode.git
+[submodule "_vim/bundle/auto-pairs"]
+	path = _vim/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
